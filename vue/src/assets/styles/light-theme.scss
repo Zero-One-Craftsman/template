@@ -1,0 +1,17 @@
+/* src/assets/styles/light-theme.scss */
+html[theme-data="light"] {
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --primary-color: #42b983;
+  --secondary-color: #ff5722;
+}
+
+html[theme-data="light"] body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+html[theme-data="light"] button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
